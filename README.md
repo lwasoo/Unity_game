@@ -39,3 +39,16 @@ Scene 1: GameScene（游戏场景）
     SceneManager.LoadScene("GameScene"); // 使用场景名称
     或者 SceneManager.LoadScene(1); // 使用场景索引
 3. 参考button触发逻辑，将代码绑定到对应按钮上，点击即可跳转。
+
+###多按钮使用同种逻辑###
+使用EventSystem.current.currentSelectedGameObject调取按钮，再使用.name可以获得button名称。
+
+###不同scene之间跳转###
+本质是销毁前一个eventsystem，并创建新的eventsystem。local变量无法保存，如果要跨scene是使用变量，需要static + heap来存储。
+
+###插入audio###
+需要创建audio source，自动播放将音乐拖到resource处，output改成对应的audiomixer；
+需要额外行动触发的，需要配合脚本，将音频挂载到resource上，output一样处理。
+
+###添加字体###
+下载好对应字体，在window-textmeshpro-font asset creator 先generate出来并保存后，才可使用。（注：需添加chinese character，ascii码不包含中文）
