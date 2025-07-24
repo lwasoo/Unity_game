@@ -1,0 +1,152 @@
+[
+  {
+    "id": "start",
+    "speaker": "",
+    "text": "1819年8月16日，曼彻斯特。今天是平常的一天……也许不会太平常。",
+    "background": "天空",
+    "choices": [
+      {
+        "option": "你，是一位工人。",
+        "next": "worker_intro",
+        "dangerDelta": 0
+      },
+      {
+        "option": "你，是特约警察。",
+        "next": "cop_intro",
+        "dangerDelta": 0
+      }
+    ]
+  },
+  {
+    "id": "worker_intro",
+    "speaker": "你",
+    "background": "工厂宿舍",
+    "text": "我记忆中这地方就是下雨，夏天偶尔放晴，总之这地方天气悲哀得简直宛如半年前和我同宿舍的……谁来着……啊算了不管了，就是那个8岁还是9岁的，忘了反正就那个人，被压死时的那点抚恤金。",
+    "next": "worker_intro_1"
+  },
+  {
+    "id": "worker_intro_1",
+    "speaker": "你",
+    "text": "其实她家里人也不算亏啦，主要她当时也得了肺炎，每天晚上咳个没完。",
+    "next": "worker_intro_2"
+  },
+  {
+    "id": "worker_intro_2",
+    "speaker": "你",
+    "text": "我当时怕不怕？——呵，起码这里暖和，有口吃的，还有钱花。作为一个女人，能从那个鬼地方跑出来，再找上这么一份工作，我已经算是幸运的了。",
+    "next": "worker_intro_3"
+  },
+  {
+    "id": "worker_intro_3",
+    "speaker": "你",
+    "text": "而且老板还算挺好的，最起码他给我们降薪降得不算多，不会拖欠工资，也不会把事情做绝，逢年过节的假放得也不算抠门，还会给我们些奖赏。",
+    "next": "worker_intro_4"
+  },
+  {
+    "id": "worker_intro_4",
+    "speaker": "你",
+    "text": "今天是滑铁卢胜利的纪念日。老板是个爱国主义者，照旧，我们有整整一天的假期。",
+    "next": "worker_intro_5"
+  },
+  {
+    "id": "worker_intro_5",
+    "speaker": "你",
+    "text": "每个人都可以领一个正儿八经的白面包、两根香肠、一个油润的碎肉布丁、一小把蜜饯以及一大杯啤酒，这让附近一些顶多早点下班的厂子的工人很是羡慕。",
+    "next": "worker_intro_6"
+  },
+  {
+    "id": "worker_intro_6",
+    "speaker": "你",
+    "text": "我不是说为难我们老板，他确实对我们不错对吧？我更不希望我们的厂子塌了，就这种年景，那我们就真没什么去处了。",
+    "next": "worker_leave"
+  },
+  {
+    "id": "worker_leave",
+    "speaker": "你",
+    "text": "不想这么多了，先出去转转吧——",
+    "choices": [
+      {
+        "option": "听说圣彼得广场有什么活动",
+        "next": "end"
+      },
+      {
+        "option": "反正没事，先随便逛逛",
+        "next": "end"
+      }
+    ]
+  },
+  {
+    "id": "cop_intro",
+    "speaker": "你",
+    "text": "历史上，这座小城似乎总是默默无闻的。封闭而落后的中世纪就像霏霏淫雨，日复一日地冲刷着人的生命力与创造力，压抑着人的合理欲望和诉求。",
+    "next": "cop_intro_1"
+  },
+  {
+    "id": "cop_intro_1",
+    "speaker": "你",
+    "text": "而当下，正如这明媚而灿烂的阳光，曼彻斯特也随着工业的伟大发展，步入了光辉璀璨的崭新历史时期。",
+    "next": "cop_intro_2"
+  },
+  {
+    "id": "cop_intro_2",
+    "speaker": "你",
+    "text": "到街上看看吧：巍峨的工厂、源源不断的货物、丰富多彩的商品……还有每个人脸上，都昂扬着自信与幸福的笑容，以及对未来的美好期许。",
+    "next": "cop_intro_3"
+  },
+  {
+    "id": "cop_intro_3",
+    "speaker": "你",
+    "text": "上帝就像财富一样，公平地给予着所有人其应得的奖赏，激励着所有人奋发向上。",
+    "next": "cop_intro_4"
+  },
+  {
+    "id": "cop_intro_4",
+    "speaker": "济贫法监督员",
+    "background": "家庭阳台",
+    "text": "早上好！胜利快乐！",
+    "next": "cop_intro_5"
+  },
+  {
+    "id": "cop_intro_5",
+    "speaker": "你",
+    "text": "……也并非无可指摘，济贫法那些慈善机构简直错得离谱！他们敲诈穷人，丧尽天良！这些钱要是真用在济贫上，也不至于有那么多饥民了！",
+    "next": "cop_intro_7"
+  },
+  {
+    "id": "cop_intro_7",
+    "speaker": "你",
+    "text": "算了，我们伟大的国家正在遭受一些农业方面的困难，食品物价比前两年涨得还厉害。不过这也是主给予我等的考验，我知道他一直在注视着这一切，而我只要做好自己就够了。",
+    "next": "cop_intro_8"
+  },
+  {
+    "id": "cop_intro_8",
+    "speaker": "你",
+    "text": "我并不否认，做好自己也不是事不关己。所以，为了维护我们美丽而可爱的曼彻斯特，我成为了一名多次协助执行任务且广受好评的特约警察（special constable）——或者说，临时警察（temporary constable）。",
+    "next": "cop_intro_9"
+  },
+  {
+    "id": "cop_intro_9",
+    "speaker": "你",
+    "text": "而今天，在这伟大的滑铁卢胜利纪念日，我也需要去执行维护秩序的任务，因为说是圣彼得广场有一场工人集会活动。",
+    "next": "cop_intro_10"
+  },
+  {
+    "id": "cop_intro_10",
+    "speaker": "你",
+    "text": "其实我也不反对和平示威，只要不起肢体冲突就都是文明的举动，所以我觉得那些长官好像有点神经过敏了。",
+    "next": "cop_leave"
+  },
+  {
+    "id": "cop_leave",
+    "speaker": "你",
+    "text": "亲吻了躺在床上看书的妻子和我们刚出生没多久的长子，和他们告别。",
+    "next": "end"
+  },
+  {
+    "id": "end",
+    "speaker": "",
+    "background": "Peterloo_Massacre",
+    "text": "8:00，早晨",
+    "end": true
+  }
+]

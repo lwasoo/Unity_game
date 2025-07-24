@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
 
+//还未投入使用
 public class setting_script : MonoBehaviour
 {
     [Header("UI Sliders")]
