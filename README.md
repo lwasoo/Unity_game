@@ -1,4 +1,5 @@
 # Unity_game
+
 function test branch
 
 ###图片视频添加方法###
@@ -52,3 +53,5 @@ Scene 1: GameScene（游戏场景）
 
 ###添加字体###
 下载好对应字体，在window-textmeshpro-font asset creator 先generate出来并保存后，才可使用。（注：需添加chinese character，ascii码不包含中文）
+=======
+
